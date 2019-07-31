@@ -28,12 +28,14 @@
                 font-weight:100;
                 line-height:125%;
                 text-decoration:none;
+                cursor:pointer;
             }
             
             a:link {color:navy; text-decoration:none;}
             a:visited {color:navy; text-decoration:none;}
             a:hover {color:#3D59AB; text-decoration:none;}
             a:active {color:navy; text-decoration:none;}
+            
             
             ul {
                 list-style-type:none;
@@ -175,11 +177,12 @@
     </head>
     
     <body>
+        
         <header>
-            <p onclick="randomLetter();">shuffle</p>
+            <a class="shuffle" onclick="randomLetter();">shuffle</a>
             <!-- <h1 class="logo">J A M I E  C A R T E R</h1> -->
             
-        </header>
+        </header> 
         
         <div class="container">
             <div class="leftbox">
@@ -197,41 +200,49 @@
                 <div class="sliderbox">
                     <script>
                         var letters = [];
-                        letters[0] = /letters/a.png;
-                        letters[1] = /letters/b.png;
-                        letters[2] = /letters/c.png;
-                        letters[3] = /letters/d.png;
-                        letters[4] = /letters/e.png;
-                        letters[5] = /letters/f.png;
-                        letters[6] = /letters/g.png;
-                        letters[7] = /letters/h.png;
-                        letters[8] = /letters/i.png;
-                        letters[9] = /letters/j.png;
-                        letters[10] = /letters/k.png;
-                        letters[11] = /letters/l.png;
-                        letters[12] = /letters/m.png;
-                        letters[13] = /letters/n.png;
-                        letters[14] = /letters/o.png;
-                        letters[15] = /letters/p.png;
-                        letters[16] = /letters/q.png;
-                        letters[17] = /letters/r.png;
-                        letters[18] = /letters/s.png;
-                        letters[19] = /letters/t.png;
-                        letters[20] = /letters/u.png;
-                        letters[21] = /letters/v.png;
-                        letters[22] = /letters/w.png;
-                        letters[23] = /letters/x.png;
-                        letters[24] = /letters/y.png;
-                        letters[25] = /letters/z.png;
+                        letters[0] = "letters/a.png";
+                        letters[1] = "letters/b.png";
+                        letters[2] = "letters/c.png";
+                        letters[3] = "letters/d.png";
+                        letters[4] = "letters/e.png";
+                        letters[5] = "letters/f.png";
+                        letters[6] = "letters/g.png";
+                        letters[7] = "letters/h.png";
+                        letters[8] = "letters/i.png";
+                        letters[9] = "letters/j.png";
+                        letters[10] = "letters/k.png";
+                        letters[11] = "letters/l.png";
+                        letters[12] = "letters/m.png";
+                        letters[13] = "letters/n.png";
+                        letters[14] = "letters/o.png";
+                        letters[15] = "letters/p.png";
+                        letters[16] = "letters/q.png";
+                        letters[17] = "letters/r.png";
+                        letters[18] = "letters/s.png";
+                        letters[19] = "letters/t.png";
+                        letters[20] = "letters/u.png";
+                        letters[21] = "letters/v.png";
+                        letters[22] = "letters/w.png";
+                        letters[23] = "letters/x.png";
+                        letters[24] = "letters/y.png";
+                        letters[25] = "letters/z.png";
                         
-                        const randomLetter = () => {document.slider.src = letters.sort(function() {return .5 - Math.random();})[0];}
+                        const randomLetter = () => {
+                            letters.sort(function() {return .5 - Math.random();});
+                            document.slide1.src = letters[0];
+                            document.slide2.src = letters[0];
+                            document.slide3.src = letters[0];
+                            document.slide4.src = letters[0];
+                        }
+                    
+                     
                         
                     </script>
                     
-                    <img name="slider" class="slider" />
-                    <img name="slider" class="slider" />
-                    <img name="slider" class="slider" />
-                    <img name="slider" class="slider" />
+                    <img name="slide1" class="slider" alt="letter1">
+                    <img name="slide2" class="slider" alt="letter2">
+                    <img name="slide3" class="slider" alt="letter3">
+                    <img name="slide4" class="slider" alt="letter4">
                
                 </div>
             
@@ -245,7 +256,7 @@
                     </ul>
                 </div>    
                     
-              
+             
             
                 
                 
