@@ -238,6 +238,17 @@
 
         <script>
 
+                        const textToggle = () => {
+              var infoClass = document.getElementsByTagName("p");
+                for (i = 0; i < infoClass.length; i++) {
+              
+                    if (infoClass[i].style.display === "block") {              
+                        infoClass[i].style.display = "none";       
+                    } else {      
+                        infoClass[i].style.display = "block";
+                    }
+                }
+              }
 
             
 
