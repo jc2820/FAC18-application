@@ -158,8 +158,20 @@
 
         <script>
 
-                        const textToggle = () => {
-              var infoClass = document.getElementsByClassName("leftcolumn"; "rightcolumn");
+                        const textToggleOne = () => {
+              var infoClass = document.getElementsByClassName("leftcolumn");
+                for (i = 0; i < infoClass.length; i++) {
+              
+                    if (infoClass[i].style.display === "block") {              
+                        infoClass[i].style.display = "none";       
+                    } else {      
+                        infoClass[i].style.display = "block";
+                    }
+                }
+              }
+                        
+                        const textToggleTwo = () => {
+              var infoClass = document.getElementsByClassName("rightcolumn");
                 for (i = 0; i < infoClass.length; i++) {
               
                     if (infoClass[i].style.display === "block") {              
@@ -184,7 +196,7 @@
         
         <header>
 
-            <a onclick="textToggle()">toggle information</a>
+            <a onclick="textToggleOne(); textToggleTwo()">toggle information</a>
 
         </header>
         
