@@ -76,26 +76,42 @@
                 user-select: none;
             }
             
-            .bgcolour {
-                /* background-color: rgba(255,255,255,0.9);*/
-                width:100%;
-                height:auto;
-                min-width:100%;
-                min-height:auto;
-                z-index:-25;
-            }
-
-            header {
+                        header {
                 position:absolute;
                 top:20px;
                 left:20px;
                 min-height:5%;
-                min-width:35%;
-                background-color: rgba(255,255,255,0.9);
+                min-width:90%;
+                background-color: rgba(250,240,230,0.9);
                 border-radius:25px;
                 z-index:0;
                 box-sizing: border-box;
                 padding:20px;
+            }
+
+
+            img {
+              border:0;
+              position:fixed;
+              top:0;
+              left:0;
+              width:100%;
+              height:auto;
+              opacity:0.8;
+              z-index:-20;
+              overflow:hidden;
+            }
+
+            .bgcolour {
+                /* background-color: rgba(255,255,255,0.9);*/
+                width:100%;
+                height:auto;
+                position:fixed;
+                top:0;
+                left:0;
+                min-width:100%;
+                min-height:auto;
+                z-index:-25;
             }
             
 
@@ -300,7 +316,11 @@
 
         </header>
         
-        <div id="timer" class="bgcolour"></div>
+         <div id="timer" class="bgcolour"></div>
+        
+          <img id="carousel" src="02.png" />
+        
+       
         
             <div id="columns">
 
