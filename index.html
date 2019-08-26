@@ -167,8 +167,11 @@
                 margin-top:20px;
             }
             
+              /* Classes from here define different colour schemes for time of day */
+
+
             .morning {
-                background-color:rgb(255,235,205);
+                background-color:rgb(255,250,240);
                 background-size:cover;
                 position:fixed;
                 top:0;
@@ -178,10 +181,10 @@
                 min-width:100%;
                 min-height:auto;
                 z-index:-25;
-            } 
-            
+            }
+
             .daytime {
-                background-color:rgba(255,48,48,0.9);
+                background-color:rgba(238,0,0,0.8);
                 background-size:cover;
                 position:fixed;
                 top:0;
@@ -192,9 +195,9 @@
                 min-height:auto;
                 z-index:-25;
             }
-            
+
             .evening {
-                background-color:pink;
+                background-color:rgba(238,173,14,0.4);
                 background-size:cover;
                 position:fixed;
                 top:0;
@@ -205,6 +208,7 @@
                 min-height:auto;
                 z-index:-25;
             }
+
             .night {
                 background-color:rgb(25,25,112);
                 background-size:cover;
@@ -217,44 +221,65 @@
                 min-height:auto;
                 z-index:-25;
             }
-            
-            .morning p {color:white;}
-            .daytime p {color:black;}
-            .evening p {color:}
-            .night p {color:#DCDCDC}
-            
-            .morning a:link {color:white; text-decoration:none;}
-            .morning a:hover {color:white; text-decoration:underline;}
-            .morning a:active {color:white; text-decoration:none;}
-            .morning a:visited {color:white; text-decoration:none;}
-            .daytime a:link {color:black; text-decoration:none;}
-            .daytime a:hover {color:black; text-decoration:underline;}
-            .daytime a:active {color:black; text-decoration:none;}
-            .daytime a:visited {color:black; text-decoration:none;}
-            .evening a:link {color:white; text-decoration:none;}
-            .evening a:active {color:white; text-decoration:none;}
-            .evening a:visited {color:white; text-decoration:none;}
-            .evening a:hover {color:white; text-decoration:underline;}
-            .night a:link {color:#DCDCDC; text-decoration:none;}
-            .night a:active {color:#DCDCDC; text-decoration:none;}
-            .night a:visited {color:#DCDCDC; text-decoration:none;}
-            .night a:hover {color:white; text-decoration:underline;}
-            
-            .morning leftcolumn {background-color:rgba(255,127,80,0.9);}
-            .daytime leftcolumn {background-color:rgba(255,255,255,0.9);
-            .evening leftcolumn {background-color:}
-            .night leftcolumn {background-color:rgba(125,158,192,0.9)}
-            
-            .morning rightcolumn {background-color:rgba(255,127,80,0.9);}
-            .daytime rightcolumn {background-color:rgba(255,255,255,0.9);
-            .evening rightcolumn {background-color:}
-            .night rightcolumn {background-color:rgba(125,158,192,0.9)}
-            
-            
-            
-              
-            
 
+            .morning p {color:rgb(77,43,9);}
+            .daytime p {color:yellow;}
+            .evening p {color:rgb(205,102,0);}
+            .night p {color:rgb(60,89,171);}
+
+            .morning h1 {color:rgb(77,43,9);}
+            .daytime h1 {color:rgb(0,0,0);}
+            .evening h1 {color:rgb(205,102,0);}
+            .night h1 {color:rgb(60,89,171);}
+
+            .morning h2 {color:rgb(77,43,9);}
+            .daytime h2 {color:rgb(0,0,0);}
+            .evening h2 {color:rgb(205,102,0);}
+            .night h2 {color:rgb(60,89,171);}
+
+            .morning button {color:rgb(77,43,9);}
+            .daytime button {color:rgb(0,0,0);}
+            .evening button {color:rgb(205,102,0);}
+            .night button {color:rgb(60,89,171);}
+
+            .morning a:link {color:rgb(77,43,9); text-decoration:underline;}
+            .morning a:hover {color:rgb(77,43,9); text-decoration:none;}
+            .morning a:active {color:rgb(77,43,9)e; text-decoration:underline;}
+            .morning a:visited {color:rgb(77,43,9); text-decoration:underline;}
+            .daytime a:link {color:rgb(0,0,0); text-decoration:underline;}
+            .daytime a:hover {color:rgb(0,0,0); text-decoration:none;}
+            .daytime a:active {color:rgb(0,0,0); text-decoration:underline;}
+            .daytime a:visited {color:rgb(0,0,0); text-decoration:underline;}
+            .evening a:link {color:rgb(205,102,0); text-decoration:underline;}
+            .evening a:active {color:rgb(205,102,0); text-decoration:underline;}
+            .evening a:visited {color:rgb(205,102,0); text-decoration:underline;}
+            .evening a:hover {color:rgb(205,102,0); text-decoration:none;}
+            .night a:link {color:rgb(60,89,171); text-decoration:underline;}
+            .night a:active {color:rgb(60,89,171); text-decoration:underline;}
+            .night a:visited {color:rgb(60,89,171); text-decoration:underline;}
+            .night a:hover {color:rgb(60,89,171); text-decoration:none;}
+
+
+
+            .morningleft, .morningright, .morninglinks, .morninginfo, .morningheader {
+                background-color: rgba(250,240,230,0.9);
+            }
+
+            .dayleft, .dayright, .daylinks, .dayinfo, .dayheader {
+                background-color: rgba(0,0,0,0.9);
+            }
+
+            .eveningleft, .eveningright, .eveninglinks, .eveninginfo, .eveningheader {
+                background-color: rgba(250,240,230,0.9);
+            }
+
+            .nightleft, .nightright, .nightlinks, .nightinfo, .nightheader {
+                background-color: rgba(250,240,230,0.9);
+            }
+
+            .morninglinks, .morninginfo, .daylinks, .dayinfo, .eveninglinks, .eveninginfo, .nightlinks, .nightinfo{
+                margin-top:20px;
+            }
 
 
 
