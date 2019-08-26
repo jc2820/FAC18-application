@@ -262,29 +262,12 @@
 
         <script>
 
-                        const textToggleOne = () => {
-              var infoClass = document.getElementsByClassName("leftcolumn");
-                for (i = 0; i < infoClass.length; i++) {
-              
-                    if (infoClass[i].style.display === "block") {              
-                        infoClass[i].style.display = "none";       
-                    } else {      
-                        infoClass[i].style.display = "block";
-                    }
-                }
-              }
-                        
-                        const textToggleTwo = () => {
-              var infoClass = document.getElementsByClassName("rightcolumn");
-                for (i = 0; i < infoClass.length; i++) {
-              
-                    if (infoClass[i].style.display === "block") {              
-                        infoClass[i].style.display = "none";       
-                    } else {      
-                        infoClass[i].style.display = "block";
-                    }
-                }
-              }
+            //Function to allow visibility toggling for the information boxes
+            function textToggle() {
+                var textArea = document.getElementById("columns");
+                if (textArea.style.display === "flex") {textArea.style.display = "none";}
+                else {textArea.style.display = "flex";}
+            }
 
             
                         
@@ -312,7 +295,7 @@
         
         <header>
 
-            <a onclick="textToggleOne(); textToggleTwo()">toggle information</a>
+            <button id="toggler">toggle information</button>
 
         </header>
         
