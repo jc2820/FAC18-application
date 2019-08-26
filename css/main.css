@@ -1,7 +1,281 @@
-.container {
-  width: 1000px;
-}
 
-p {
-color: green;
-}
+            html, body {
+                width: 100%;
+                padding:0;
+                margin:0;
+            }
+
+            h1 {
+                font-family: "lucida console", monospace;
+                color: black;
+                font-size: 12px;
+                font-weight:100;
+                line-height:125%;
+                text-align: left;
+                margin:0;
+            }
+
+            h2 {
+                font-family: "lucida console", monospace;
+                color: black;
+                font-size: 12px;
+                font-weight:100;
+                line-height:125%;
+                text-align: left;
+                margin:0;
+            }
+
+            a {
+                font-family: "lucida console", monospace;
+                font-size:12px;
+                font-weight:100;
+                line-height:125%;
+                text-decoration:none;
+                cursor:pointer;
+            }
+
+            a:link {color:black; text-decoration:none;}
+            a:visited {color:black; text-decoration:none;}
+            a:hover {color:black; text-decoration:underline;}
+            a:active {color:black; text-decoration:none;}
+
+            p {
+                font-family: "lucida console", monospace;
+                color: black;
+                font-size: 12px;
+                font-weight:100;
+                line-height:130%;
+                text-align: left;
+                margin:0;
+            }
+
+            ul {
+                list-style-type:none;
+                padding:0;
+                margin:0;
+                line-height:130%;
+            }
+
+            button {
+                font-family: "lucida console", monospace;
+                background:none;
+                border: none;
+                color:black;
+                padding: 0;
+                text-align: center;
+                text-decoration: none;
+                font-size: 12px;
+                padding-top:5px;
+                padding-right:5px;
+                cursor:pointer;
+                user-select: none;
+            }
+
+            header {
+                position:absolute;
+                top:20px;
+                left:20px;
+                min-height:5%;
+                min-width:90%;
+                background-color: rgba(250,240,230,0.9);
+                border-radius:25px;
+                z-index:0;
+                box-sizing: border-box;
+                padding:20px;
+            }
+
+
+            img {
+              border:0;
+              position:fixed;
+              top:0;
+              left:0;
+              width:100%;
+              height:auto;
+              opacity:0.8;
+              z-index:-20;
+              overflow:hidden;
+            }
+
+            .bgcolour {
+                /* background-color: rgba(255,255,255,0.9);*/
+                width:100%;
+                height:auto;
+                position:fixed;
+                top:0;
+                left:0;
+                min-width:100%;
+                min-height:auto;
+                z-index:-25;
+            }
+
+            /* columns for flex-box layout */
+
+            #columns {
+                display:flex;
+                flex-direction:row;
+                justify-content:flex-end;
+                margin-bottom:100px;
+            }
+
+            .leftcolumn {
+                display:block;
+                margin-top:10%;
+                margin-right:2%;
+                width:40%;
+            }
+
+            .rightcolumn {
+                display:block;
+                margin-top:10%;
+                margin-right:2%;
+                width:40%;
+            }
+
+            #leftbox {
+                /*background-color: rgba(250,240,230,0.9);*/
+                border-radius:25px;
+                box-sizing: border-box;
+                padding:20px;
+            }
+
+            #infobox {
+                /*background-color: rgba(250,240,230,0.9);*/
+                border-radius:25px;
+                box-sizing: border-box;
+                padding:20px;
+                margin-top:20px;
+            }
+
+
+            #rightbox {
+                /*background-color: rgba(250,240,230,0.9);*/
+                border-radius:25px;
+                box-sizing: border-box;
+                padding:20px;
+            }
+
+            #linksbox {
+                /*background-color: rgba(250,240,230,0.9);*/
+                border-radius:25px;
+                box-sizing: border-box;
+                padding:20px;
+                margin-top:20px;
+            }
+
+
+            /* Classes from here define different colour schemes for time of day */
+
+
+            .morning {
+                background-color:rgb(255,250,240);
+                background-size:cover;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                min-width:100%;
+                min-height:auto;
+                z-index:-25;
+            }
+
+            .daytime {
+                background-color:rgba(238,0,0,0.8);
+                background-size:cover;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                min-width:100%;
+                min-height:auto;
+                z-index:-25;
+            }
+
+            .evening {
+                background-color:rgba(238,173,14,0.4);
+                background-size:cover;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                min-width:100%;
+                min-height:auto;
+                z-index:-25;
+            }
+
+            .night {
+                background-color:rgb(25,25,112);
+                background-size:cover;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                min-width:100%;
+                min-height:auto;
+                z-index:-25;
+            }
+
+            .morning p {color:rgb(77,43,9);}
+            .daytime p {color:yellow;}
+            .evening p {color:rgb(205,102,0);}
+            .night p {color:rgb(60,89,171);}
+
+            .morning h1 {color:rgb(77,43,9);}
+            .daytime h1 {color:rgb(0,0,0);}
+            .evening h1 {color:rgb(205,102,0);}
+            .night h1 {color:rgb(60,89,171);}
+
+            .morning h2 {color:rgb(77,43,9);}
+            .daytime h2 {color:rgb(0,0,0);}
+            .evening h2 {color:rgb(205,102,0);}
+            .night h2 {color:rgb(60,89,171);}
+
+            .morning button {color:rgb(77,43,9);}
+            .daytime button {color:rgb(0,0,0);}
+            .evening button {color:rgb(205,102,0);}
+            .night button {color:rgb(60,89,171);}
+
+            .morning a:link {color:rgb(77,43,9); text-decoration:underline;}
+            .morning a:hover {color:rgb(77,43,9); text-decoration:none;}
+            .morning a:active {color:rgb(77,43,9)e; text-decoration:underline;}
+            .morning a:visited {color:rgb(77,43,9); text-decoration:underline;}
+            .daytime a:link {color:rgb(0,0,0); text-decoration:underline;}
+            .daytime a:hover {color:rgb(0,0,0); text-decoration:none;}
+            .daytime a:active {color:rgb(0,0,0); text-decoration:underline;}
+            .daytime a:visited {color:rgb(0,0,0); text-decoration:underline;}
+            .evening a:link {color:rgb(205,102,0); text-decoration:underline;}
+            .evening a:active {color:rgb(205,102,0); text-decoration:underline;}
+            .evening a:visited {color:rgb(205,102,0); text-decoration:underline;}
+            .evening a:hover {color:rgb(205,102,0); text-decoration:none;}
+            .night a:link {color:rgb(60,89,171); text-decoration:underline;}
+            .night a:active {color:rgb(60,89,171); text-decoration:underline;}
+            .night a:visited {color:rgb(60,89,171); text-decoration:underline;}
+            .night a:hover {color:rgb(60,89,171); text-decoration:none;}
+
+
+
+            .morningleft, .morningright, .morninglinks, .morninginfo, .morningheader {
+                background-color: rgba(250,240,230,0.9);
+            }
+
+            .dayleft, .dayright, .daylinks, .dayinfo, .dayheader {
+                background-color: rgba(0,0,0,0.9);
+            }
+
+            .eveningleft, .eveningright, .eveninglinks, .eveninginfo, .eveningheader {
+                background-color: rgba(250,240,230,0.9);
+            }
+
+            .nightleft, .nightright, .nightlinks, .nightinfo, .nightheader {
+                background-color: rgba(250,240,230,0.9);
+            }
+
+            .morninglinks, .morninginfo, .daylinks, .dayinfo, .eveninglinks, .eveninginfo, .nightlinks, .nightinfo{
+                margin-top:20px;
+            }
+
+
