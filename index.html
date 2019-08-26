@@ -306,7 +306,45 @@
                 if (n > 22 && n <= 6) {document.getElementById("timer").className = "night"};
             }
             
-            window.onload=whatTime;
+            //Carousel functions
+            var images = ["02.png", "03.png", "01.png"];
+            var i = 0;
+            var timer = setInterval(next, 1000);
+
+            function next() {
+                i = (i+1) % images.length;
+                document.getElementById("carousel").src = images[i];
+            }
+
+            function previous() {
+                i--;
+                if (i<0) {i = images.length-1;}
+                document.getElementById("carousel").src = images[i];
+            }
+
+            function playPause() {
+                if (timer) {
+                    clearInterval(timer);
+                    timer = null;
+                } else {
+                    timer = setInterval(next, 1000);
+                }
+            }
+
+            //Function to load functions plus event listeners/handler for carousel controls with the window.
+            window.onload = function() {
+                textToggle();
+                whatTime();
+                document.getElementById("toggler").addEventListener("click", textToggle);
+                document.getElementById("nextButton").addEventListener("click", next);
+                document.getElementById("previousButton").addEventListener("click", previous);
+                document.getElementById("playPauseButton").addEventListener("click", playPause);
+                document.onkeydown = function(event) {
+                    if (event.keyCode == 37) {previous();}
+                    if (event.keyCode == 39) {next();}
+                    if (event.keyCode == 80) {playPause();}
+                }
+            }
 
             
 
