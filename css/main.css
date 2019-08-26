@@ -132,6 +132,8 @@
                 width:40%;
             }
 
+            /* Box styles to define colour classes */
+
             #leftbox {
                 /*background-color: rgba(250,240,230,0.9);*/
                 border-radius:25px;
@@ -163,9 +165,7 @@
                 margin-top:20px;
             }
 
-
             /* Classes from here define different colour schemes for time of day */
-
 
             .morning {
                 background-color:rgb(255,250,240);
