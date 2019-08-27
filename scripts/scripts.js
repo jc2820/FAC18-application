@@ -38,9 +38,9 @@
                   var colourSchemeText = document.createTextNode("Your colour scheme is: sky/smoke/tomato");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
-                if (n > 17 && n <= 22) {
+                if (n > 17 && n <= 21) {
                   document.getElementById("timer").className = "eveningbg";
-                    document.getElementById("leftbox").className = "evening";
+                  document.getElementById("leftbox").className = "evening";
                   document.getElementById("rightbox").className = "evening";
                   document.getElementById("infobox").className = "evening";
                   document.getElementById("linksbox").className = "evening";
@@ -50,7 +50,7 @@
                   var colourSchemeText = document.createTextNode("Your colour scheme is: tan/coral/seashell");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
-                if (n > 22 && n <= 5) {
+                if (n > 21 && n <= 5) {
                   document.getElementById("timer").className = "nightbg";
                   document.getElementById("leftbox").className = "night";
                   document.getElementById("rightbox").className = "night";
