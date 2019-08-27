@@ -59,17 +59,19 @@
             button {
                 font-family:"lucida console", monospace;
                 background:none;
-                border:2px solid;
+                border:7px solid;
                 border-radius:50%;
                 padding:0;
                 text-align: center;
                 text-decoration: none;
-                font-size:4vmin;
+                font-size:3vmin;
                 cursor:pointer;
                 height:8vmin;
                 width:8vmin;
                 margin-right:20px;
             }
+
+            
 
             header {
                 position:fixed;
@@ -258,6 +260,12 @@
 
             .morninglinks, .morninginfo, .daylinks, .dayinfo, .eveninglinks, .eveninginfo, .nightlinks, .nightinfo{
                 margin-top:20px;
+            }
+
+            .info {
+                font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+                font-style: italic;
+                font-weight:900;
             }
 
 
