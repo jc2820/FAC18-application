@@ -50,7 +50,7 @@
                   var colourSchemeText = document.createTextNode("Your colour scheme is: tan/coral/seashell");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
-                if (n > 21 && n <= 5) {
+                if (n > 21 || n <= 5) {
                   document.getElementById("timer").className = "nightbg";
                   document.getElementById("leftbox").className = "night";
                   document.getElementById("rightbox").className = "night";
