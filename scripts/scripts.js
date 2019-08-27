@@ -23,7 +23,7 @@
                   document.getElementById("header").className = "morning";
                   var timeText = document.createTextNode("It is morning...");
                   document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: Breakfast time!");
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: spring/snow/scarlet.");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
                 if (n > 9 && n <= 17) {
@@ -35,7 +35,7 @@
                   document.getElementById("header").className = "daytime";
                   var timeText = document.createTextNode("It is daytime...");
                   document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: London Bus!");
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: sky/smoke/tomato");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
                 if (n > 17 && n <= 22) {
@@ -47,7 +47,7 @@
                   document.getElementById("header").className = "evening";
                   var timeText = document.createTextNode("It is evening...");
                   document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: Whisky Soda!");
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: tan/coral/seashell");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
                 if (n > 22 && n <= 5) {
@@ -59,7 +59,7 @@
                   document.getElementById("header").className = "night";
                   var timeText = document.createTextNode("It is night...");
                   document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: Midnight Drive!");
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: midnight/cobalt/silver");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
             }
