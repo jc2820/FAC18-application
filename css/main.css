@@ -119,12 +119,14 @@
             .leftcolumn {
                 display:block;
                 margin-top:7%;
+                margin-right:2%;
                 width:40%;
             }
 
             .rightcolumn {
                 display:block;
                 margin-top:7%;
+                margin-left:2%;
                 width:40%;
             }
 
