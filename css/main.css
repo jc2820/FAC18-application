@@ -167,8 +167,8 @@
 
             /* Classes from here define different colour schemes for time of day */
 
-                        .morningbg {
-                background-color:rgb(255,250,240);
+             .morningbg {
+                background-color:rgb(0,205,102);
                 background-size:cover;
                 position:fixed;
                 top:0;
@@ -181,7 +181,7 @@
             }
 
             .daytimebg {
-                background-color:rgba(238,0,0,0.8);
+                background-color:rgba(0,191,255,0.5);
                 background-size:cover;
                 position:fixed;
                 top:0;
@@ -194,7 +194,7 @@
             }
 
             .eveningbg {
-                background-color:rgba(238,173,14,0.4);
+                background-color:rgba(255,165,79);
                 background-size:cover;
                 position:fixed;
                 top:0;
@@ -219,61 +219,57 @@
                 z-index:-25;
             }
 
-            .morning p {color:rgb(77,43,9);}
-            .daytime p {color:yellow;}
-            .evening p {color:rgb(205,102,0);}
-            .night p {color:rgb(60,89,171);}
+            .morning p {color:rgb(255,36,0);}
+            .daytime p {color:rgb(255,99,71);}
+            .evening p {color:rgb(255,245,238);}
+            .night p {color:rgb(192,192,192);}
 
-            .morning h1 {color:rgb(77,43,9);}
-            .daytime h1 {color:yellow;}
-            .evening h1 {color:rgb(205,102,0);}
-            .night h1 {color:rgb(60,89,171);}
+            .morning h1 {color:rgb(255,36,0);}
+            .daytime h1 {color:rgb(255,99,71);}
+            .evening h1 {color:rgb(255,245,238);}
+            .night h1 {color:rgb(192,192,192);}
 
-            .morning h2 {color:rgb(77,43,9);}
-            .daytime h2 {color:yellow;}
-            .evening h2 {color:rgb(205,102,0);}
-            .night h2 {color:rgb(60,89,171);}
+            .morning h2 {color:rgb(255,36,0);}
+            .daytime h2 {color:rgb(255,99,71);}
+            .evening h2 {color:rgb(255,245,238);}
+            .night h2 {color:rgb(192,192,192);}
 
-            .morning button {color:rgb(77,43,9);}
-            .daytime button {color:yellow;}
-            .evening button {color:rgb(205,102,0);}
-            .night button {color:rgb(60,89,171);}
+            .morning button {color:rgb(255,36,0);}
+            .daytime button {color:rgb(255,99,71);}
+            .evening button {color:rgb(255,245,238);}
+            .night button {color:rgb(192,192,192);}
 
-            .morning a:link {color:rgb(77,43,9); text-decoration:underline;}
-            .morning a:hover {color:rgb(77,43,9); text-decoration:none;}
-            .morning a:active {color:rgb(77,43,9)e; text-decoration:underline;}
-            .morning a:visited {color:rgb(77,43,9); text-decoration:underline;}
-            .daytime a:link {color:yellow; text-decoration:underline;}
-            .daytime a:hover {color:yellow; text-decoration:none;}
-            .daytime a:active {color:yellow; text-decoration:underline;}
-            .daytime a:visited {color:yellow; text-decoration:underline;}
-            .evening a:link {color:rgb(205,102,0); text-decoration:underline;}
-            .evening a:active {color:rgb(205,102,0); text-decoration:underline;}
-            .evening a:visited {color:rgb(205,102,0); text-decoration:underline;}
-            .evening a:hover {color:rgb(205,102,0); text-decoration:none;}
-            .night a:link {color:rgb(60,89,171); text-decoration:underline;}
-            .night a:active {color:rgb(60,89,171); text-decoration:underline;}
-            .night a:visited {color:rgb(60,89,171); text-decoration:underline;}
-            .night a:hover {color:rgb(60,89,171); text-decoration:none;}
-
-
+            .morning a:link {color:rgb(255,36,0); text-decoration:underline;}
+            .morning a:hover {color:rgb(255,36,0); text-decoration:none;}
+            .morning a:active {color:rgb(255,36,0); text-decoration:underline;}
+            .morning a:visited {color:rgb(255,36,0); text-decoration:underline;}
+            .daytime a:link {color:rgb(255,99,71); text-decoration:underline;}
+            .daytime a:hover {color:rgb(255,99,71); text-decoration:none;}
+            .daytime a:active {color:rgb(255,99,71); text-decoration:underline;}
+            .daytime a:visited {color:rgb(255,99,71); text-decoration:underline;}
+            .evening a:link {color:rgb(255,245,238); text-decoration:underline;}
+            .evening a:hover {color:rgb(255,245,238); text-decoration:none;}
+            .evening a:active {color:rgb(255,245,238); text-decoration:underline;}
+            .evening a:visited {color:rgb(255,245,238); text-decoration:underline;}            
+            .night a:link {color:rgb(192,192,192); text-decoration:underline;}
+            .night a:hover {color:rgb(192,192,192); text-decoration:none;}
+            .night a:active {color:rgb(192,192,192); text-decoration:underline;}
+            .night a:visited {color:rgb(192,192,192); text-decoration:underline;}
 
             .morning {
-                background-color: rgba(250,240,230,0.9);
+                background-color: rgba(255,250,250,0.9);
             }
 
             .daytime {
-                background-color: rgba(0,0,0,0.9);
+                background-color: rgba(245,245,245,0.95);
             }
 
-/* .dayleft, .dayright, .daylinks, .dayinfo, .dayheader */
-
             .evening {
-                background-color: rgba(250,240,230,0.9);
+                background-color: rgba(255,127,80,0.9);
             }
 
             .night {
-                background-color: rgba(250,240,230,0.9);
+                background-color: rgba(61,89,171,0.9);
             }
 
             .morninglinks, .morninginfo, .daylinks, .dayinfo, .eveninglinks, .eveninginfo, .nightlinks, .nightinfo{
