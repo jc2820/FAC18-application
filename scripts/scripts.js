@@ -114,6 +114,7 @@
                     if (event.keyCode == 37) {previous();}
                     if (event.keyCode == 39) {next();}
                     if (event.keyCode == 80) {playPause();}
+                    if (event.keyCode == 73) {textToggle();}
                 }
             }
 
