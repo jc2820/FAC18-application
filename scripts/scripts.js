@@ -50,7 +50,19 @@
                   var colourSchemeText = document.createTextNode("Your colour scheme is: tan/coral/seashell");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
-                if (n > 21 || n <= 5) {
+                if (n > 21) {
+                  document.getElementById("timer").className = "nightbg";
+                  document.getElementById("leftbox").className = "night";
+                  document.getElementById("rightbox").className = "night";
+                  document.getElementById("infobox").className = "night";
+                  document.getElementById("linksbox").className = "night";
+                  document.getElementById("header").className = "night";
+                  var timeText = document.createTextNode("It is night...");
+                  document.getElementById("timeOfDay").appendChild(timeText);
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: midnight/cobalt/silver");
+                  document.getElementById("colourScheme").appendChild(colourSchemeText);
+                };
+                if (n <= 5) {
                   document.getElementById("timer").className = "nightbg";
                   document.getElementById("leftbox").className = "night";
                   document.getElementById("rightbox").className = "night";
