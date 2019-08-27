@@ -66,7 +66,7 @@
 
 
             //Carousel functions
-            var images = ["images/sfcfull.png", "images/wlcfull.png", "images/jrbfull.png"];
+            var images = ["images/sfcfullgs.png", "images/wlcfullgs.png", "images/jrbfullgs.png"];
             var i = 0;
             var timer = setInterval(next, 1000);
 
