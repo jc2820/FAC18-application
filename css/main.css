@@ -8,7 +8,7 @@
             h1 {
                 font-family: "Lucida Console", Monaco, monospace;
                 color: black;
-                font-size: 12px;
+                font-size: 3vmin;
                 font-weight:100;
                 line-height:125%;
                 text-align: left;
@@ -261,7 +261,7 @@
             /* alter font style of information toggle button */
             .info {
                 font-family: Georgia, Serif;
-                font-size:5vmin;
+                font-size:3vmin;
                 font-style: italic;
                 font-weight:700;
             }
