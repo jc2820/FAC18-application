@@ -1,4 +1,4 @@
-# Jamie Carter: Founders And Coders Application
+Jamie Carter: Founders And Coders Application
 
 About me webpage as part of my application to FAC Winter 2019 cohort.
 
