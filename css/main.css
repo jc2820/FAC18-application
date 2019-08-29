@@ -60,7 +60,7 @@
             button {
                 font-family: "Lucida Console", Monaco, monospace;
                 background:none;
-                border:7px solid;
+                border:5px solid;
                 border-radius:50%;
                 padding:0;
                 text-align: center;
@@ -69,7 +69,7 @@
                 cursor:pointer;
                 height:8vmin;
                 width:8vmin;
-                margin-right:20px;
+                margin-right:2vmin;
             }
 
             
@@ -79,7 +79,7 @@
                 top:0;
                 left:0;
                 height:10vmin;
-                width:100vmax;
+                width:100%;
                 background-color: rgba(255,255,255,0.9);
                 z-index:0;
                 box-sizing: border-box;
