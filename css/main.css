@@ -1,3 +1,4 @@
+
 html, body {
             width: 100%;
             padding:0;
@@ -87,7 +88,6 @@ header {
             display:flex;
             align-items:center;
 }
-
 
 img {
             border:0;
@@ -264,5 +264,3 @@ img {
             font-style: italic;
             font-weight:700;
 }
-
-
