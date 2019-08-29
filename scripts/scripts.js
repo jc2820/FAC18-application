@@ -23,7 +23,7 @@
                   document.getElementById("header").className = "morning";
                   var timeText = document.createTextNode("It is morning...");
                   document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: spring/snow/scarlet.");
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: spring/snow/forest");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
                 if (n > 9 && n <= 17) {
@@ -35,7 +35,7 @@
                   document.getElementById("header").className = "daytime";
                   var timeText = document.createTextNode("It is daytime...");
                   document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: sky/smoke/tomato");
+                  var colourSchemeText = document.createTextNode("Your colour scheme is: tomato/antique/brick");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
                 };
                 if (n > 17 && n <= 21) {
@@ -61,33 +61,7 @@
                   document.getElementById("timeOfDay").appendChild(timeText);
                   var colourSchemeText = document.createTextNode("Your colour scheme is: midnight/cobalt/silver");
                   document.getElementById("colourScheme").appendChild(colourSchemeText);
-                };       
-                        /*
-                if (n > 21) {
-                  document.getElementById("timer").className = "nightbg";
-                  document.getElementById("leftbox").className = "night";
-                  document.getElementById("rightbox").className = "night";
-                  document.getElementById("infobox").className = "night";
-                  document.getElementById("linksbox").className = "night";
-                  document.getElementById("header").className = "night";
-                  var timeText = document.createTextNode("It is night...");
-                  document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: midnight/cobalt/silver");
-                  document.getElementById("colourScheme").appendChild(colourSchemeText);
-                };
-                if (n <= 5) {
-                  document.getElementById("timer").className = "nightbg";
-                  document.getElementById("leftbox").className = "night";
-                  document.getElementById("rightbox").className = "night";
-                  document.getElementById("infobox").className = "night";
-                  document.getElementById("linksbox").className = "night";
-                  document.getElementById("header").className = "night";
-                  var timeText = document.createTextNode("It is night...");
-                  document.getElementById("timeOfDay").appendChild(timeText);
-                  var colourSchemeText = document.createTextNode("Your colour scheme is: midnight/cobalt/silver");
-                  document.getElementById("colourScheme").appendChild(colourSchemeText);
-                }; */
-                
+                };                
             }
 
 
