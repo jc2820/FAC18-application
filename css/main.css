@@ -1,270 +1,268 @@
+html, body {
+            width: 100%;
+            padding:0;
+            margin:0;
+}
 
-            html, body {
-                width: 100%;
-                padding:0;
-                margin:0;
-            }
+h1 {
+            font-family: "Lucida Console", Monaco, monospace;
+            color: black;
+            font-size: 4vmin;
+            font-weight:100;
+            line-height:125%;
+            text-align: left;
+            margin:0;
+            margin-left:auto;
+}
 
-            h1 {
-                font-family: "Lucida Console", Monaco, monospace;
-                color: black;
-                font-size: 4vmin;
-                font-weight:100;
-                line-height:125%;
-                text-align: left;
-                margin:0;
-                margin-left:auto;
-            }
+h2 {
+            font-family: "Lucida Console", Monaco, monospace;
+            color: black;
+            font-size: 12px;
+            font-weight:100;
+            line-height:125%;
+            text-align: left;
+            margin:0;
+}
 
-            h2 {
-                font-family: "Lucida Console", Monaco, monospace;
-                color: black;
-                font-size: 12px;
-                font-weight:100;
-                line-height:125%;
-                text-align: left;
-                margin:0;
-            }
+a {
+            font-family: "Lucida Console", Monaco, monospace;
+            font-size:12px;
+            font-weight:100;
+            line-height:125%;
+            text-decoration:none;
+            cursor:pointer;
+}
 
-            a {
-                font-family: "Lucida Console", Monaco, monospace;
-                font-size:12px;
-                font-weight:100;
-                line-height:125%;
-                text-decoration:none;
-                cursor:pointer;
-            }
+a:link {color:black; text-decoration:none;}
+a:visited {color:black; text-decoration:none;}
+a:hover {color:black; text-decoration:underline;}
+a:active {color:black; text-decoration:none;}
 
-            a:link {color:black; text-decoration:none;}
-            a:visited {color:black; text-decoration:none;}
-            a:hover {color:black; text-decoration:underline;}
-            a:active {color:black; text-decoration:none;}
+p {
+            font-family: "Lucida Console", Monaco, monospace;
+            color: black;
+            font-size: 12px;
+            font-weight:100;
+            line-height:130%;
+            text-align: left;
+            margin:0;
+}
 
-            p {
-                font-family: "Lucida Console", Monaco, monospace;
-                color: black;
-                font-size: 12px;
-                font-weight:100;
-                line-height:130%;
-                text-align: left;
-                margin:0;
-            }
+ul {
+            list-style-type:none;
+            padding:0;
+            margin:0;
+            line-height:130%;
+}
 
-            ul {
-                list-style-type:none;
-                padding:0;
-                margin:0;
-                line-height:130%;
-            }
+button {
+            font-family: "Lucida Console", Monaco, monospace;
+            background:none;
+            border:5px solid;
+            border-radius:50%;
+            padding:0;
+            text-align: center;
+            text-decoration: none;
+            font-size:2vmin;
+            cursor:pointer;
+            height:8vmin;
+            width:8vmin;
+            margin-right:2vmin;
+}
 
-            button {
-                font-family: "Lucida Console", Monaco, monospace;
-                background:none;
-                border:5px solid;
-                border-radius:50%;
-                padding:0;
-                text-align: center;
-                text-decoration: none;
-                font-size:2vmin;
-                cursor:pointer;
-                height:8vmin;
-                width:8vmin;
-                margin-right:2vmin;
-            }
+button:focus {outline:0;}            
 
-            button:focus {outline:0;}            
-
-            header {
-                position:fixed;
-                top:0;
-                left:0;
-                height:10vmin;
-                width:100%;
-                background-color: rgba(255,255,255,0.9);
-                z-index:0;
-                box-sizing: border-box;
-                padding-left:10%;
-                padding-right:10%;
-                display:flex;
-                align-items:center;
-            }
+header {
+            position:fixed;
+            top:0;
+            left:0;
+            height:10vmin;
+            width:100%;
+            background-color: rgba(255,255,255,0.9);
+            z-index:0;
+            box-sizing: border-box;
+            padding-left:10%;
+            padding-right:10%;
+            display:flex;
+            align-items:center;
+}
 
 
-            img {
-              border:0;
-              position:fixed;
-              top:10vmin;
-              left:0;
-              width:100%;
-              height:auto;
-              z-index:-20;
-            }
+img {
+            border:0;
+            position:fixed;
+            top:10vmin;
+            left:0;
+            width:100%;
+            height:auto;
+            z-index:-20;
+}
 
-            .bgcolour {
-                width:100vmax;
-                height:100vmax;
-                position:fixed;
-                top:0;
-                left:0;
-                z-index:-25;
-            }
+.bgcolour {
+            width:100vmax;
+            height:100vmax;
+            position:fixed;
+            top:0;
+            left:0;
+            z-index:-25;
+}
 
-            /* columns for flex-box layout */
+/* columns for flex-box layout */
 
-            #columns {
-                display:flex;
-                flex-direction:row;
-                justify-content:center;
-                margin-bottom:100px;
-            }
+#columns {
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            margin-bottom:100px;
+}
 
-            .leftcolumn {
-                margin-top:12vmin;
-                margin-right:2%;
-                width:40%;
-            }
+.leftcolumn {
+            margin-top:12vmin;
+            margin-right:2%;
+            width:40%;
+}
 
-            .rightcolumn {
-                margin-top:12vmin;
-                margin-left:2%;
-                width:40%;
-            }
+.rightcolumn {
+            margin-top:12vmin;
+            margin-left:2%;
+            width:40%;
+}
 
-            /* Box styles for text background */
+/* Box styles for text background */
 
-            #leftbox {
-                border-radius:25px;
-                box-sizing: border-box;
-                padding:20px;
-            }
+#leftbox {
+            border-radius:25px;
+            box-sizing: border-box;
+            padding:20px;
+}
 
-            #infobox {
-                border-radius:25px;
-                box-sizing: border-box;
-                padding:20px;
-                margin-top:20px;
-            }
+#infobox {
+            border-radius:25px;
+            box-sizing: border-box;
+            padding:20px;
+            margin-top:20px;
+}
 
-            #rightbox {
-                border-radius:25px;
-                box-sizing: border-box;
-                padding:20px;
-            }
+#rightbox {
+            border-radius:25px;
+            box-sizing: border-box;
+            padding:20px;
+}
 
-            #linksbox {
-                border-radius:25px;
-                box-sizing: border-box;
-                padding:20px;
-                margin-top:20px;
-            }
+#linksbox {
+            border-radius:25px;
+            box-sizing: border-box;
+            padding:20px;
+            margin-top:20px;
+}
 
-            /* Classes from here define different colour schemes for time of day */
+/* Classes from here define different colour schemes for time of day */
 
-             .morningbg {
-                background-color:rgb(0,205,102);
-                position:fixed;
-                top:0;
-                left:0;
-                width:100vmax;
-                height:100vmax;
-                z-index:-25;
-            }
+.morningbg {
+            background-color:rgb(0,205,102);
+            position:fixed;
+            top:0;
+            left:0;
+            width:100vmax;
+            height:100vmax;
+            z-index:-25;
+}
 
-            .daytimebg {
-                background-color:rgb(255,99,71);
-                position:fixed;
-                top:0;
-                left:0;
-                width:100vmax;
-                height:100vmax;
-                z-index:-25;
-            }
+.daytimebg {
+            background-color:rgb(255,99,71);
+            position:fixed;
+            top:0;
+            left:0;
+            width:100vmax;
+            height:100vmax;
+            z-index:-25;
+}
 
-            .eveningbg {
-                background-color:rgb(255,165,79);
-                background-size:cover;
-                position:fixed;
-                top:0;
-                left:0;
-                width:100vmax;
-                height:100vmax;
-                z-index:-25;
-            }
+.eveningbg {
+            background-color:rgb(255,165,79);
+            position:fixed;
+            top:0;
+            left:0;
+            width:100vmax;
+            height:100vmax;
+            z-index:-25;
+}
 
-            .nightbg {
-                background-color:rgb(25,25,112);
-                background-size:cover;
-                position:fixed;
-                top:0;
-                left:0;
-                width:100vmax;
-                height:100vmax;
-                z-index:-25;
-            }
+.nightbg {
+            background-color:rgb(25,25,112);
+            position:fixed;
+            top:0;
+            left:0;
+            width:100vmax;
+            height:100vmax;
+            z-index:-25;
+}
 
-            .morning p {color:rgb(34,139,34);}
-            .daytime p {color:rgb(255,48,48);}
-            .evening p {color:rgb(255,245,238);}
-            .night p {color:rgb(192,192,192);}
+.morning p {color:rgb(34,139,34);}
+.daytime p {color:rgb(255,48,48);}
+.evening p {color:rgb(255,245,238);}
+.night p {color:rgb(192,192,192);}
 
-            .morning h1 {color:rgb(34,139,34);}
-            .daytime h1 {color:rgb(255,48,48);}
-            .evening h1 {color:rgb(255,245,238);}
-            .night h1 {color:rgb(192,192,192);}
+.morning h1 {color:rgb(34,139,34);}
+.daytime h1 {color:rgb(255,48,48);}
+.evening h1 {color:rgb(255,245,238);}
+.night h1 {color:rgb(192,192,192);}
 
-            .morning h2 {color:rgb(34,139,34);}
-            .daytime h2 {color:rgb(255,48,48);}
-            .evening h2 {color:rgb(255,245,238);}
-            .night h2 {color:rgb(192,192,192);}
+.morning h2 {color:rgb(34,139,34);}
+.daytime h2 {color:rgb(255,48,48);}
+.evening h2 {color:rgb(255,245,238);}
+.night h2 {color:rgb(192,192,192);}
 
-            .morning button {color:rgb(34,139,34);}
-            .daytime button {color:rgb(255,48,48);}
-            .evening button {color:rgb(255,245,238);}
-            .night button {color:rgb(192,192,192);}
+.morning button {color:rgb(34,139,34);}
+.daytime button {color:rgb(255,48,48);}
+.evening button {color:rgb(255,245,238);}
+.night button {color:rgb(192,192,192);}
 
-            .morning a:link {color:rgb(34,139,34); text-decoration:underline;}
-            .morning a:hover {color:rgb(34,139,34); text-decoration:none;}
-            .morning a:active {color:rgb(34,139,34); text-decoration:underline;}
-            .morning a:visited {color:rgb(34,139,34); text-decoration:underline;}
-            .daytime a:link {color:rgb(255,48,48); text-decoration:underline;}
-            .daytime a:hover {color:rgb(255,48,48); text-decoration:none;}
-            .daytime a:active {color:rgb(255,48,48); text-decoration:underline;}
-            .daytime a:visited {color:rgb(255,48,48); text-decoration:underline;}
-            .evening a:link {color:rgb(255,245,238); text-decoration:underline;}
-            .evening a:hover {color:rgb(255,245,238); text-decoration:none;}
-            .evening a:active {color:rgb(255,245,238); text-decoration:underline;}
-            .evening a:visited {color:rgb(255,245,238); text-decoration:underline;}            
-            .night a:link {color:rgb(192,192,192); text-decoration:underline;}
-            .night a:hover {color:rgb(192,192,192); text-decoration:none;}
-            .night a:active {color:rgb(192,192,192); text-decoration:underline;}
-            .night a:visited {color:rgb(192,192,192); text-decoration:underline;}
+.morning a:link {color:rgb(34,139,34); text-decoration:underline;}
+.morning a:hover {color:rgb(34,139,34); text-decoration:none;}
+.morning a:active {color:rgb(34,139,34); text-decoration:underline;}
+.morning a:visited {color:rgb(34,139,34); text-decoration:underline;}
+.daytime a:link {color:rgb(255,48,48); text-decoration:underline;}
+.daytime a:hover {color:rgb(255,48,48); text-decoration:none;}
+.daytime a:active {color:rgb(255,48,48); text-decoration:underline;}
+.daytime a:visited {color:rgb(255,48,48); text-decoration:underline;}
+.evening a:link {color:rgb(255,245,238); text-decoration:underline;}
+.evening a:hover {color:rgb(255,245,238); text-decoration:none;}
+.evening a:active {color:rgb(255,245,238); text-decoration:underline;}
+.evening a:visited {color:rgb(255,245,238); text-decoration:underline;}            
+.night a:link {color:rgb(192,192,192); text-decoration:underline;}
+.night a:hover {color:rgb(192,192,192); text-decoration:none;}
+.night a:active {color:rgb(192,192,192); text-decoration:underline;}
+.night a:visited {color:rgb(192,192,192); text-decoration:underline;}
 
-            .morning {
-                background-color: rgba(255,250,250,0.9);
-            }
+.morning {
+            background-color: rgba(255,250,250,0.9);
+}
 
-            .daytime {
-                background-color: rgba(250,235,215,0.9);
-            }
+.daytime {
+            background-color: rgba(250,235,215,0.9);
+}
 
-            .evening {
-                background-color: rgba(255,127,80,0.9);
-            }
+.evening {
+            background-color: rgba(255,127,80,0.9);
+}
 
-            .night {
-                background-color: rgba(61,89,171,0.9);
-            }
+.night {
+            background-color: rgba(61,89,171,0.9);
+}
 
-            .morninglinks, .morninginfo, .daylinks, .dayinfo, .eveninglinks, .eveninginfo, .nightlinks, .nightinfo{
-                margin-top:20px;
-            }
+.morninglinks, .morninginfo, .daylinks, .dayinfo, .eveninglinks, .eveninginfo, .nightlinks, .nightinfo {
+            margin-top:20px;
+}
                         
-            /* alter font style of information toggle button */
-            .info {
-                font-family: Georgia, Serif;
-                font-size:3vmin;
-                font-style: italic;
-                font-weight:700;
-            }
+/* alter font style of information toggle button */
+
+.info {
+            font-family: Georgia, Serif;
+            font-size:3vmin;
+            font-style: italic;
+            font-weight:700;
+}
 
 
