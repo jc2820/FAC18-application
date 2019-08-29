@@ -72,7 +72,7 @@
                 margin-right:2vmin;
             }
 
-            
+            button:focus {outline:0;}            
 
             header {
                 position:fixed;
