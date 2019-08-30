@@ -65,7 +65,7 @@ function whatTime() {
 //Carousel functions
 var images = ["images/sfcfullgs.png", "images/wlcfullgs.png", "images/jrbfullgs.png"];
 var i = 0;
-var timer = setInterval(next, 3000);
+var timer = setInterval(next, 5000);
 
 function next() {
             i = (i+1) % images.length;
@@ -83,7 +83,7 @@ function playPause() {
                         clearInterval(timer);
                         timer = null;
             } else {
-                        timer = setInterval(next, 3000);
+                        timer = setInterval(next, 5000);
             }
 }
 
